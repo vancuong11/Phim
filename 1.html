@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider1">
+        <ul id="autoWidth" class="cs-hidden">
+            <c:forEach var="i" items="${phimmoi}">
+
+                <li class="item-a">
+                    <!--box-slider--------------->
+                    <div class="box">
+                        <!--img-box---------->
+                        <div class="slide-img">
+                            <!-- "/WebPhim/views/account/image/cay sung.jpg" -->
+                            <img alt="" src="WebContent/views/account/image/banner1.jpg">
+                            <!--overlayer---------->
+                            <div class="overlay">
+                                <!--buy-btn------>
+                                <a href="#" class="buy-btn">Xem
+									Ngay </a>
+                            </div>
+                        </div>
+                        <!--detail-box--------->
+                        <div class="detail-box">
+                            <!--type-------->
+                            <div class="type">
+                                <a href="#">asdhask</a>
+                                <p>123 m</p>
+
+                            </div>
+                            <!--price-------->
+                            <a href="#" class="price">HD</a>
+
+                        </div>
+
+                    </div>
+                </li>
+            </c:forEach>
+        </ul>
+    </div>
+</body>
+
+</html>
