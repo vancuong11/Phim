@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#header {
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+}
+
+#header .header__title--text {
+    color: darkgreen;
+    display: inline-block;
+    float: left;
+    margin: 31px 15px;
+}
+
+#header .header__logo {
+    width: 70px;
+    height: 70px;
+    border: 1px solid green;
+    position: relative;
+    float: right;
+    margin: 15px;
+}
+
+#header .header__title--logo {
+    display: inline-block;
+    float: right;
+    line-height: 70px;
+    position: absolute;
+    left: 17px;
+    color: darkgreen;
+}
+
+#nav {
+    width: 1000px;
+    height: 40px;
+    background-color: green;
+    border-radius: 3px;
+}
+
+#nav ul {
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+}
+
+#nav ul li a {
+    line-height: 40px;
+    padding: 0 24px;
+}
+
+#content {
+    width: 1000px;
+    margin-top: 12px;
+}
+
+#content .content_left {
+    width: 680px;
+    height: 300px;
+    float: left;
+}
+
+.content_text {
+    text-align: center;
+    width: 33.33333%;
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#content .member-img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+#content .text {
+    margin-bottom: 5px;
+}
+
+#content .content_right {
+    width: 300px;
+    height: 448px;
+    float: right;
+    position: relative;
+    margin-bottom: 33px;
+}
+
+#content .content-row {
+    width: 300px;
+    height: 250px;
+    border: 1px solid red;
+}
+
+#content .content-row .from-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#content .content-row .from-controls {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#content .content-row .control {
+    padding: 10px;
+    margin: 10px 0px 10px 15px;
+}
+
+#content .content-row .from-btn {
+    float: right;
+    padding: 10px;
+    margin-right: 26px;
+}
+
+#content .content-sildebar {
+    height: 180px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+#content .content-sildebar ul {
+    list-style: none;
+}
+
+#content .content-sildebar ul li {
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#footer {
+    width: 1000px;
+    height: 60px;
+    background-color: #ccc;
+    clear: both;
+    position: relative;
+}
+
+#footer .footer-text {
+    line-height: 60px;
+    text-align: center;
+}

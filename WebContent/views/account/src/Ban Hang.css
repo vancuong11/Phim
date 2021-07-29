@@ -1,0 +1,144 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.menu {
+    margin-left: -8px;
+    padding: 0xp;
+    width: 1366px;
+    height: 120px;
+}
+
+.up {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+}
+
+.up ul {
+    list-style: none;
+    float: right;
+    margin-right: 49px;
+}
+
+.logo {
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px;
+}
+
+.up ul li {
+    display: inline-block;
+    margin: -2px;
+    border-right: 1px solid black;
+}
+
+.up ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 0 11px 0 11px;
+}
+
+.down {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+.down ul li {
+    list-style: none;
+    line-height: 80px;
+}
+
+.down ul li a {
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 70px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.banner img {
+    overflow: hidden;
+    width: 1366px;
+    height: 400px;
+    margin-left: -8px;
+}
+
+.cac-nut ul {
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    bottom: 30px;
+    left: 50%;
+    margin-left: -50px;
+    display: flex;
+    justify-content: space-between;
+    /* dan` giua nut' */
+}
+
+.cac-nut ul li {
+    width: 20px;
+    height: 20px;
+    background: white;
+    opacity: 0.6;
+    list-style: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* ////////////////////////////////////////////// */
+
+.content {
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    font-size: 25px;
+    margin: 25px;
+    border-left: 4px solid red;
+    padding-left: 9px;
+    float: left;
+}
+
+.sanpham .right {
+    display: inline-block;
+    width: 400px;
+    float: right;
+    line-height: 90px;
+}
+
+.sanpham {
+    width: 100%;
+    height: 100px;
+}
+
+.sanpham .right input {
+    width: 150px;
+    height: 40px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border: red;
+    cursor: pointer;
+}
+
+.sanpham .right input:hover {
+    color: red;
+    background: oldlace;
+}
